@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "esp32_xiao")(type "Legacy")(uri "/home/eeprotocol/github/LEFT_Parade/LEFT_Parade_kicad/Seeeduino-XIAO-KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+)
