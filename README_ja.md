@@ -1,4 +1,4 @@
-[English docs]{./README.md}
+[English docs](./README.md)
 # LEFT Parade project
 
 いわゆる左手デバイスです．  
@@ -12,7 +12,7 @@
 - 上記仕様の実現のため,キースイッチ押してから**手を離すタイミング**でコマンドが送信されます．
 
 ## 回路図
-![circuit scheme]{./scheme.png "Circuit Scheme"}
+![circuit scheme](./scheme.png "Circuit Scheme")
 
 空きピンとして**D0, D1, D5 ,D6**が使用可能です．LEDをつけたりなど，ご自由にお使いください．
 

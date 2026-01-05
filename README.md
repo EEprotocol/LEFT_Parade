@@ -1,4 +1,4 @@
-[Japanese docs]{./README_ja.md}
+[Japanese docs](./README_ja.md)
 # LEFT Parade Project
 
 This is a so-called *left-hand device*.  
@@ -14,7 +14,7 @@ It is intended for situations where you use a pen display tablet or similar devi
 - To enable the above behavior, commands are sent **when the key switch is released**, not when it is pressed.
 
 ## Circuit Diagram
-![circuit scheme]{./scheme.png "Circuit Scheme"}
+![circuit scheme](./scheme.png "Circuit Scheme")
 
 Pins **D0, D1, D5, and D6** are available as free pins.  
 Feel free to use them for LEDs or other custom extensions.
