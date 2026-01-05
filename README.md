@@ -30,9 +30,9 @@ Feel free to use them for LEDs or other custom extensions.
 | Key socket | 160 |
 | Key switch | 330 |
 | Battery | 450 |
-| Demultiplexer | 135 |
+| (SN74HC139N) | 135 |
 | DIP socket (8 × 2 rows) | 135 |
-| **Total** | **3,350** |
+| **Total** | **3,344** |
 
 ## Macros
 Work in progress.
