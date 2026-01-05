@@ -37,5 +37,5 @@
 
 
 ## Special Thanks
-- [Mystfit/ESP32-BLE-CompositeHID]{https://github.com/Mystfit/ESP32-BLE-CompositeHID}
+- [Mystfit/ESP32-BLE-CompositeHID](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
 
