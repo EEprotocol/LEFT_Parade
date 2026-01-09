@@ -37,6 +37,11 @@
 工事中
 
 
+## Todo
+- [ ] 押下時コマンド送信モードの実装（Gameモードの実装）
+- [ ] PCBの作成
+- [ ] 右手バージョンのRIGHT Paradeの開発
+
 ## Special Thanks
 - [Mystfit/ESP32-BLE-CompositeHID](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
 
