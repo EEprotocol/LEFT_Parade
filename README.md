@@ -38,7 +38,7 @@ Feel free to use them for LEDs or other custom extensions.
 Work in progress.
 
 ## Todo
-- [ ] Impliment the GAME mode which sends commnad when keys are pushed
+- [x] Impliment the GAME mode which sends commnad when keys are pushed
 - [ ] Fabricate a PCB
 - [ ] Prepare the other version: RIGHT Parade
 
