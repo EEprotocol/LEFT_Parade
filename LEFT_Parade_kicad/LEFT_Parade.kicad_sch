@@ -1779,6 +1779,12 @@
 		)
 	)
 	(junction
+		(at 223.52 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c2006b-5d13-46a7-90e6-4c788e95e41f")
+	)
+	(junction
 		(at 92.71 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1789,6 +1795,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09dd8ad1-d374-482d-b7ab-6dfa47048824")
+	)
+	(junction
+		(at 173.99 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1867106c-df69-443d-8424-1e1891ae4bf8")
+	)
+	(junction
+		(at 163.83 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fe617a3-ad72-4718-bdc9-25e3d1d84ef0")
 	)
 	(junction
 		(at 237.49 95.25)
@@ -1803,10 +1821,46 @@
 		(uuid "2af47d41-f6a8-4cb5-8897-b11a9e215dc8")
 	)
 	(junction
+		(at 173.99 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3edfec15-c7ec-4658-aea0-a18776b7174c")
+	)
+	(junction
+		(at 237.49 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f9c6c95-4a0f-4c4e-8041-cdf0de25ea8a")
+	)
+	(junction
 		(at 196.85 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "425bc558-31c6-408d-a574-93929e5d8345")
+	)
+	(junction
+		(at 213.36 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480cf4fc-8d04-417d-a329-2eef2aac3563")
+	)
+	(junction
+		(at 186.69 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d00ab0e-cf8d-47a4-abbe-3beb6096728c")
+	)
+	(junction
+		(at 223.52 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d68ba4c-a53e-49c4-a8ee-cc122fba96f1")
+	)
+	(junction
+		(at 237.49 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "616a4808-ea65-44ef-a276-08f93d4a4b7f")
 	)
 	(junction
 		(at 115.57 92.71)
@@ -1845,10 +1899,40 @@
 		(uuid "940f120d-b9ed-4acf-ae74-2f6f449c5130")
 	)
 	(junction
+		(at 196.85 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f96c5e8-b321-4e5c-85ff-ed1f7e587f16")
+	)
+	(junction
+		(at 186.69 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a310b9ff-92e5-4d92-8261-607e3d177647")
+	)
+	(junction
+		(at 248.92 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5bed212-860d-48ca-af8f-18301a6920d6")
+	)
+	(junction
 		(at 186.69 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab809a57-922d-4a73-86f6-59c35776bc0d")
+	)
+	(junction
+		(at 196.85 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d22cfb71-0163-46b3-83c8-fe95c306b679")
+	)
+	(junction
+		(at 213.36 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d49975c5-ed11-42b1-863c-f14f385ea952")
 	)
 	(junction
 		(at 162.56 29.21)
@@ -1857,10 +1941,22 @@
 		(uuid "dec1b3c6-fa74-46bd-ad8e-183af2b2599f")
 	)
 	(junction
+		(at 163.83 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6aad5bb-5a6f-4e46-8270-31c3446fa1f7")
+	)
+	(junction
 		(at 223.52 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e83c6e01-f597-42b2-a314-248c5d690ddd")
+	)
+	(junction
+		(at 247.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8bc9542-6d33-4a23-8cf1-105e7f77285c")
 	)
 	(junction
 		(at 64.77 133.35)
@@ -1876,6 +1972,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 111.76) (xy 213.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042eb464-2c6c-436b-bcb4-f98fdb638053")
+	)
+	(wire
+		(pts
 			(xy 133.35 92.71) (xy 115.57 92.71)
 		)
 		(stroke
@@ -1883,6 +1989,16 @@
 			(type default)
 		)
 		(uuid "07c3c662-724a-4cf7-9652-0c6074a4a0c7")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 186.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a376da1-7c15-4115-b144-bd8e429cce6a")
 	)
 	(wire
 		(pts
@@ -1966,6 +2082,46 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 85.09) (xy 213.36 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c56c036-a42f-48a2-81d1-60581391918d")
+	)
+	(wire
+		(pts
+			(xy 196.85 111.76) (xy 196.85 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ce00df-f169-40f3-b751-23d57ee9137c")
+	)
+	(wire
+		(pts
+			(xy 248.92 111.76) (xy 248.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355ac24c-9e68-4843-b068-428c2cb4aabb")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3984ffec-2773-4cf0-9466-7dfd6c5e446d")
+	)
+	(wire
+		(pts
 			(xy 106.68 138.43) (xy 106.68 140.97)
 		)
 		(stroke
@@ -2016,6 +2172,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 111.76) (xy 237.49 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dd1e52-20d7-4385-bb79-a4f574d04c20")
+	)
+	(wire
+		(pts
 			(xy 133.35 147.32) (xy 133.35 138.43)
 		)
 		(stroke
@@ -2043,6 +2209,26 @@
 			(type default)
 		)
 		(uuid "4cf353b5-d7f7-4ceb-910b-ae848671ee45")
+	)
+	(wire
+		(pts
+			(xy 247.65 83.82) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d013291-3b93-4a04-9218-38dc77eba3d0")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 186.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9a7770-68f3-4ba6-ad1d-bb655cdd6f3d")
 	)
 	(wire
 		(pts
@@ -2076,6 +2262,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 111.76) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53484d5a-90f8-44fd-957e-186f207074dd")
+	)
+	(wire
+		(pts
 			(xy 118.11 135.89) (xy 92.71 135.89)
 		)
 		(stroke
@@ -2083,6 +2279,16 @@
 			(type default)
 		)
 		(uuid "546706bf-1d3a-4c96-9c74-3b70f6c42bd1")
+	)
+	(wire
+		(pts
+			(xy 237.49 83.82) (xy 237.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55451f4d-736d-4ac2-8491-a1379c8a1ce4")
 	)
 	(wire
 		(pts
@@ -2103,6 +2309,16 @@
 			(type default)
 		)
 		(uuid "59798388-4d08-4e51-a77a-b6efe1a8f45e")
+	)
+	(wire
+		(pts
+			(xy 247.65 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608c246a-44af-47bf-a418-82890f40e3c1")
 	)
 	(wire
 		(pts
@@ -2166,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 95.25) (xy 163.83 123.19)
+			(xy 163.83 95.25) (xy 163.83 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 82.55) (xy 213.36 95.25)
+			(xy 213.36 82.55) (xy 213.36 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2196,13 +2412,43 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 95.25) (xy 186.69 123.19)
+			(xy 196.85 85.09) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743f2ec9-8848-49ba-8853-7cc059481f03")
+	)
+	(wire
+		(pts
+			(xy 186.69 95.25) (xy 186.69 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75ed3b4f-ea8a-43a7-9a55-ecf9223b0976")
+	)
+	(wire
+		(pts
+			(xy 173.99 82.55) (xy 173.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d9a2d4-9960-4726-9648-91b7d90fdc7e")
+	)
+	(wire
+		(pts
+			(xy 223.52 85.09) (xy 223.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a7289c-3bf2-4ff0-8e3b-97494c42a20c")
 	)
 	(wire
 		(pts
@@ -2236,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 186.69 95.25)
+			(xy 186.69 82.55) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 237.49 123.19)
+			(xy 237.49 95.25) (xy 237.49 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 95.25) (xy 213.36 123.19)
+			(xy 213.36 95.25) (xy 213.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2712,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 95.25) (xy 163.83 74.93)
+			(xy 173.99 111.76) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9eeb71e-bdb7-4cf4-8b3a-aa1d78e2bac0")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 80.01) (xy 237.49 95.25)
+			(xy 237.49 80.01) (xy 237.49 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2576,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 82.55) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b3b037-63ad-40fe-9917-01a9c296f2b0")
+	)
+	(wire
+		(pts
 			(xy 40.64 96.52) (xy 30.48 96.52)
 		)
 		(stroke
@@ -2620,7 +2886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 242.57 90.17 0)
 			(effects
 				(font
@@ -2664,6 +2930,142 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 218.44 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11234168-b03f-46dd-8411-ddb54a7471e1")
+		(property "Reference" "SW12"
+			(at 218.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f486f448-98ce-477e-ba27-ee660770ef03")
+		)
+		(pin "1"
+			(uuid "a0905788-6277-4a08-be8b-1203fcd6e715")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 168.91 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "136d6c93-e683-4930-89e6-01846356cefc")
+		(property "Reference" "SW14"
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aed02802-d1e2-4a0f-ab1b-71345ec5bba6")
+		)
+		(pin "1"
+			(uuid "79de12bb-7546-4f2e-8f2b-07c71baeff1f")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 243.84 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2688,7 +3090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 243.84 118.11 0)
 			(effects
 				(font
@@ -2855,6 +3257,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "390ae182-cbe6-4ceb-a2b6-2c1502ab14c0")
+		(property "Reference" "SW15"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c429a3e7-153d-4853-914e-c4c7603f3e0a")
+		)
+		(pin "1"
+			(uuid "9a64af61-8139-473e-9b46-62fdd01cd9af")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b29fa09-bb39-4f00-b56f-038ff6fe47b1")
+		(property "Reference" "SW11"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbff18c5-c590-4441-b147-fe2aaf9c07cf")
+		)
+		(pin "1"
+			(uuid "141963f0-1650-46ff-b3d0-a52069eb786c")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 53.34 140.97 90)
 		(unit 1)
@@ -2880,7 +3418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.34 142.748 90)
 			(effects
 				(font
@@ -2948,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 218.44 90.17 0)
 			(effects
 				(font
@@ -2992,6 +3530,210 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 242.57 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b17e860-949b-4f29-8014-df38379b1105")
+		(property "Reference" "SW13"
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 242.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 242.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 242.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4697af04-a11e-4519-9671-4d130d58d1cd")
+		)
+		(pin "1"
+			(uuid "73edc006-c2e7-42e1-8135-6bbf0f26d763")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 218.44 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ccbe6a8-2ae2-444b-b87c-3098dfb2c343")
+		(property "Reference" "SW16"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 218.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 218.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b63032dd-98c0-4102-baba-9954d79866e2")
+		)
+		(pin "1"
+			(uuid "9f053461-1562-4af1-83fe-a2ef5bb18bda")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 242.57 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d827fd8-f3cf-48ca-9bd6-278cfbcce8df")
+		(property "Reference" "SW17"
+			(at 242.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 242.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6ac5216-f5c3-4eed-b0b1-507c3181d255")
+		)
+		(pin "1"
+			(uuid "fbd3f7d8-710f-45fd-966d-0ed0999ff112")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 191.77 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3016,7 +3758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 191.77 118.11 0)
 			(effects
 				(font
@@ -3086,7 +3828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 219.075 99.06 0)
 			(effects
 				(font
@@ -3174,7 +3916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 169.545 127 0)
 			(effects
 				(font
@@ -3262,7 +4004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 219.075 127 0)
 			(effects
 				(font
@@ -3348,7 +4090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 187.96 49.53 0)
 			(effects
 				(font
@@ -3458,7 +4200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -3526,7 +4268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -3569,6 +4311,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 168.91 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91df1ef2-3022-4d06-9543-73164c62621d")
+		(property "Reference" "SW10"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_reverse"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24903d4c-01bd-47c0-b01b-e768da81fdcd")
+		)
+		(pin "1"
+			(uuid "0e90e5d0-6f16-4c18-a45e-705eb6ae641e")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 53.34 128.27 90)
 		(unit 1)
@@ -3594,7 +4404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.34 130.048 90)
 			(effects
 				(font
@@ -3663,7 +4473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 61.9252 140.97 0)
 			(effects
 				(font
@@ -3733,7 +4543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 192.405 127 0)
 			(effects
 				(font
@@ -3821,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 192.405 99.06 0)
 			(effects
 				(font
@@ -3907,7 +4717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
 			(at 121.92 131.826 0)
 			(effects
 				(font
@@ -3984,7 +4794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 218.44 118.11 0)
 			(effects
 				(font
@@ -4054,7 +4864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 93.6752 135.89 0)
 			(effects
 				(font
@@ -4122,7 +4932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 168.91 118.11 0)
 			(effects
 				(font
@@ -4192,7 +5002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 169.545 99.06 0)
 			(effects
 				(font
@@ -4280,7 +5090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 244.475 127 0)
 			(effects
 				(font
@@ -4368,7 +5178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 243.205 99.06 0)
 			(effects
 				(font
