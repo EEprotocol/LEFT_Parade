@@ -5,7 +5,7 @@ This is a so-called *left-hand device*.
 It is intended for situations where you use a pen display tablet or similar device with your right hand and want to trigger macros with your left hand.
 
 ## TL;DR
-!(./sample.gif)
+![navigate](./sample.gif)
 ## Specifications
 - Connectivity is **Bluetooth only**. Wired connections are not supported.  
   This limitation is due to the ESP32-C3; however, by using a board such as the ESP32-S3 that supports USB HID, wired operation can be implemented.
