@@ -521,6 +521,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1815,6 +1998,12 @@
 		(uuid "1fe617a3-ad72-4718-bdc9-25e3d1d84ef0")
 	)
 	(junction
+		(at 125.73 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21a7086c-9efa-4b6a-821d-9ed39f5c9d1b")
+	)
+	(junction
 		(at 175.26 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1873,6 +2062,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "616a4808-ea65-44ef-a276-08f93d4a4b7f")
+	)
+	(junction
+		(at 133.35 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66aa0b41-7bf0-46c7-91a4-9d4c5be4380a")
 	)
 	(junction
 		(at 115.57 92.71)
@@ -1965,6 +2160,12 @@
 		(uuid "dec1b3c6-fa74-46bd-ad8e-183af2b2599f")
 	)
 	(junction
+		(at 194.31 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f05731-5482-4daf-b168-d33b9cd46985")
+	)
+	(junction
 		(at 163.83 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1999,6 +2200,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe8b7edd-16e2-4dd0-b9ca-ef2a74ce624e")
+	)
+	(wire
+		(pts
+			(xy 27.94 15.24) (xy 27.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035fbf79-0792-47e1-8c37-1de0ae19c50e")
 	)
 	(wire
 		(pts
@@ -2082,6 +2293,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 153.67) (xy 209.55 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149c232e-2343-49e3-903e-56903ace8ecd")
+	)
+	(wire
+		(pts
 			(xy 193.04 24.13) (xy 92.71 24.13)
 		)
 		(stroke
@@ -2102,6 +2323,36 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 144.78) (xy 194.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c35ddaa-3a26-4bda-bc58-66514671f68f")
+	)
+	(wire
+		(pts
+			(xy 133.35 133.35) (xy 134.62 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc0ff7e-6e0d-4408-86a7-37f7f78fab2c")
+	)
+	(wire
+		(pts
+			(xy 262.89 26.67) (xy 36.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b24328-f6cd-4dd6-9d00-317bbb7debf2")
+	)
+	(wire
+		(pts
 			(xy 64.77 135.89) (xy 64.77 133.35)
 		)
 		(stroke
@@ -2109,6 +2360,16 @@
 			(type default)
 		)
 		(uuid "23182f7b-f195-4082-9acb-685689ec1de7")
+	)
+	(wire
+		(pts
+			(xy 194.31 152.4) (xy 194.31 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f8d45f-f735-4047-97e0-085a1b1778bd")
 	)
 	(wire
 		(pts
@@ -2239,6 +2500,16 @@
 			(type default)
 		)
 		(uuid "4b930820-b62b-4953-83c3-33e991e21440")
+	)
+	(wire
+		(pts
+			(xy 262.89 146.05) (xy 209.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cce6a75-21b6-44f4-a68c-d09986b16215")
 	)
 	(wire
 		(pts
@@ -2382,6 +2653,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 147.32) (xy 133.35 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e09cf9-6fa4-483b-b34b-b3af5ce78b4d")
+	)
+	(wire
+		(pts
 			(xy 118.11 133.35) (xy 106.68 133.35)
 		)
 		(stroke
@@ -2389,6 +2670,26 @@
 			(type default)
 		)
 		(uuid "67a889d4-5630-4f23-b3b0-d4f2c5a65a46")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c29765-cf94-4dd8-93f1-03e2ad0f104d")
+	)
+	(wire
+		(pts
+			(xy 36.83 26.67) (xy 36.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69735d06-a692-4c44-9810-c8fc386ab963")
 	)
 	(wire
 		(pts
@@ -2482,6 +2783,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 133.35) (xy 134.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746fd502-2f3f-4583-a701-a2f3763b9af6")
+	)
+	(wire
+		(pts
 			(xy 186.69 95.25) (xy 186.69 111.76)
 		)
 		(stroke
@@ -2489,6 +2800,26 @@
 			(type default)
 		)
 		(uuid "75ed3b4f-ea8a-43a7-9a55-ecf9223b0976")
+	)
+	(wire
+		(pts
+			(xy 125.73 147.32) (xy 125.73 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f72580-4efc-4ade-8f1c-0fb3c3bc4a65")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 138.43 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8117196c-77a9-4956-b34f-a2845aceebcc")
 	)
 	(wire
 		(pts
@@ -2512,6 +2843,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 29.21) (xy 262.89 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8430b316-08f6-4fab-911d-66676e22a28e")
+	)
+	(wire
+		(pts
+			(xy 138.43 162.56) (xy 194.31 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e1743a-5ba5-4e25-affb-8afb6db0b159")
+	)
+	(wire
+		(pts
 			(xy 60.96 140.97) (xy 57.15 140.97)
 		)
 		(stroke
@@ -2529,6 +2880,16 @@
 			(type default)
 		)
 		(uuid "889c3ae9-2608-439c-a8f3-60896e78027f")
+	)
+	(wire
+		(pts
+			(xy 27.94 107.95) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8958626d-f7f5-47dd-a130-672da29d247d")
 	)
 	(wire
 		(pts
@@ -2572,13 +2933,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 147.32) (xy 133.35 147.32)
+			(xy 30.48 147.32) (xy 125.73 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94888ddd-4a86-4b71-9715-88a4096497cd")
+	)
+	(wire
+		(pts
+			(xy 36.83 92.71) (xy 40.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958bd4f3-9872-41e0-b2d3-fad9ce55d7b2")
 	)
 	(wire
 		(pts
@@ -2619,6 +2990,16 @@
 			(type default)
 		)
 		(uuid "a127719b-53f2-412c-80c7-5f01d3d54ca9")
+	)
+	(wire
+		(pts
+			(xy 194.31 162.56) (xy 209.55 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a191de13-73d8-48fa-acaa-ba771cce4008")
 	)
 	(wire
 		(pts
@@ -2752,6 +3133,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 158.75) (xy 134.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd40bbab-662d-4010-8360-eeecfd142ab7")
+	)
+	(wire
+		(pts
 			(xy 115.57 29.21) (xy 115.57 92.71)
 		)
 		(stroke
@@ -2779,6 +3170,26 @@
 			(type default)
 		)
 		(uuid "d0afd6d9-c57e-438a-810e-9d6d96e28ae4")
+	)
+	(wire
+		(pts
+			(xy 262.89 69.85) (xy 262.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d438152a-b3c8-45c3-98e0-21b960bbcd7c")
+	)
+	(wire
+		(pts
+			(xy 270.51 15.24) (xy 27.94 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63f8944-e609-44f7-aaea-2f45a68f03d0")
 	)
 	(wire
 		(pts
@@ -2892,6 +3303,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 29.21) (xy 270.51 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b6d9d2-0a74-41f2-909f-8e7ba49a458c")
+	)
+	(wire
+		(pts
 			(xy 200.66 80.01) (xy 237.49 80.01)
 		)
 		(stroke
@@ -2952,6 +3373,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 69.85) (xy 252.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94b5863-afc8-404a-9d1c-7d763a0b40c5")
+	)
+	(wire
+		(pts
 			(xy 223.52 49.53) (xy 223.52 17.78)
 		)
 		(stroke
@@ -2986,7 +3417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 242.57 90.17 0)
 			(effects
 				(font
@@ -3029,6 +3460,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05104762-a15d-4e53-81c7-1b38786052d1")
+		(property "Reference" "D9"
+			(at 196.85 145.7324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 196.85 148.2724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eee90dc2-e6e0-4081-899d-807d9580ef61")
+		)
+		(pin "2"
+			(uuid "edc7bfb7-ba4b-40ab-8819-12cb63beb059")
+		)
+		(instances
+			(project ""
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 218.44 85.09 0)
 		(unit 1)
@@ -3054,7 +3564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 218.44 80.01 0)
 			(effects
 				(font
@@ -3122,7 +3632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -3190,7 +3700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 118.11 0)
 			(effects
 				(font
@@ -3258,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 257.81 49.53 0)
 			(effects
 				(font
@@ -3370,7 +3880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esp32_xiao:ESP32C3_Footprint"
 			(at 53.34 95.25 0)
 			(effects
 				(font
@@ -3492,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -3560,7 +4070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -3696,7 +4206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 218.44 90.17 0)
 			(effects
 				(font
@@ -3764,7 +4274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 242.57 78.74 0)
 			(effects
 				(font
@@ -3832,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 218.44 106.68 0)
 			(effects
 				(font
@@ -3900,7 +4410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 242.57 106.68 0)
 			(effects
 				(font
@@ -3943,6 +4453,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 209.55 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5670265a-9d87-469e-9343-9639652ee263")
+		(property "Reference" "D10"
+			(at 212.09 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 212.09 149.5424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3a9231a-af61-4e69-8368-4c3fe559d4c4")
+		)
+		(pin "2"
+			(uuid "860898e7-a6d2-43bc-a547-5a3c0e0c4b8f")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 191.77 123.19 0)
 		(unit 1)
@@ -3968,7 +4557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 191.77 118.11 0)
 			(effects
 				(font
@@ -4181,6 +4770,76 @@
 			(project "LEFT_Parade"
 				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6682ce92-781c-4bd6-9310-c2a90f8640a1")
+		(property "Reference" "C3"
+			(at 138.43 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 138.43 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
+			(at 135.5852 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a9f6991-2124-4ac5-a17b-e5994ff9eaf4")
+		)
+		(pin "1"
+			(uuid "dfc70ffd-d730-4c11-97ba-c2b5f3f71c40")
+		)
+		(instances
+			(project "LEFT_Parade"
+				(path "/199fa67b-12e2-4c5a-aba4-689eee3f95af"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4410,7 +5069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -4478,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -4546,7 +5205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "esp32_xiao:SW_Cherry_MX_1.00u_PCB_reverse"
 			(at 168.91 77.47 0)
 			(effects
 				(font
@@ -5004,7 +5663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 218.44 118.11 0)
 			(effects
 				(font
@@ -5142,7 +5801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 168.91 118.11 0)
 			(effects
 				(font

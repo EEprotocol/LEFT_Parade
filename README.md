@@ -111,3 +111,4 @@ const keyMapEntry direct_key[] = {
 
 ## Special Thanks
 - [Mystfit/ESP32-BLE-CompositeHID](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
+- [freerouting/freerouting](https://github.com/freerouting/freerouting?tab=readme-ov-file)

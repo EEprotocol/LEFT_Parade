@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "esp32_xiao")(type "KiCad")(uri "/home/eeprotocol/github/LEFT_Parade/LEFT_Parade_kicad/Seeeduino-XIAO-KICAD")(options "")(descr ""))
+  (lib (name "esp32_xiao")(type "KiCad")(uri "/home/eeprotocol/github/LEFT_Parade/XIAO_ESP32C3/xiao_esp.pretty")(options "")(descr ""))
 )
