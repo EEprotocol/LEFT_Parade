@@ -68,6 +68,7 @@ const uint8_t KC_PAGE_NEXT[] = { 0x01, KEY_RIGHT };
 const uint8_t KC_PAGE_BACK[] = { 0x01, KEY_LEFT };
 ```
 The list of `uint8_t` refers the operation s.t. Ctrl+S, ESC, or Delete. This list of macro is commonly used in the two mode.
+In the list, terms of keys except the last term is regarded as modifier keys s.t. Alt, Ctrl or Shift.
 
 ### 1. Combination Mode
 For this mode, you can set the assignment with `keymap[]`.
@@ -89,9 +90,12 @@ const keyMapEntry keymap[] = {
 };
 ```
 
-The first number refers the key combinaiton.
+The first number refers the keyID of the combinaiton. You can calculate the keyID as following:
 
+![assignment](./assign.svg "key_assign")
 
+2 refers the upper key, 1 refers the below key, 0 refers no pushed.
+In this mode, it is prohibited to push 2 keys in a column.
 
 ### 2. Fast Attack Mode
 ```cpp
@@ -102,6 +106,11 @@ const keyMapEntry direct_key[] = {
   { 5, { KC_RIGHT, 1 } }
 };
 ```
+
+The key ID which plades the first number corresponds to the following assignment:
+
+![assignment](./assign_game.svg "key_assign")
+
 
 ## Todo
 - [x] Impliment the GAME mode which sends commnad when keys are pushed
