@@ -94,7 +94,7 @@ The first number refers the keyID of the combinaiton. You can calculate the keyI
 
 ![assignment](./assign.svg "key_assign")
 
-2 refers the upper key, 1 refers the below key, 0 refers no pushed.
+2 refers the upper key, 1 refers the lower key, 0 refers no pushed.
 In this mode, it is prohibited to push 2 keys in a column.
 
 ### 2. Fast Attack Mode
