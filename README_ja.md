@@ -1,4 +1,7 @@
 [English docs](./README.md)
+
+_Hat先輩に感謝をこめて,![salt](https://otsu36.net)に期待をこめて..._
+
 # LEFT Parade project
 
 いわゆる左手デバイスです．  

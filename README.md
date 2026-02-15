@@ -42,12 +42,15 @@ Feel free to use them for LEDs or other custom extensions.
 | **Total** | **3,344** |
 
 ## Installation  
+### Hardware
+
+### Software
 1. Install Arduino IDE on your PC, e.g.  
 ```yay -S arduino-ide```  
 
 2. Install library [Mystfit/ESP32-BLE-CompositeHID](https://github.com/Mystfit/ESP32-BLE-CompositeHID).
 
-3. Upload to `leftandmechv5/leftandmechv5.ino` to ESP32-C3.
+3. Upload to `leftandmechv5_PCB/leftandmechv5_PCB.ino` to ESP32-C3.
 
 ## Macros
 You can set the macro in the preamble of the `.ino` scripts.
@@ -90,7 +93,7 @@ const keyMapEntry keymap[] = {
 };
 ```
 
-The first number refers the keyID of the combinaiton. You can calculate the keyID as following:
+The first number refers the keyID of the combinaiton, second string refers the macro which you defined above and the last number refers the number of the element of the list of the macro. You can calculate the keyID as following:
 
 ![assignment](./assign.svg "key_assign")
 
@@ -114,7 +117,7 @@ The key ID which plades the first number corresponds to the following assignment
 
 ## Todo
 - [x] Impliment the GAME mode which sends commnad when keys are pushed
-- [ ] Fabricate a PCB
+- [x] Fabricate a PCB
 - [ ] Prepare the other version: RIGHT Parade
 
 
