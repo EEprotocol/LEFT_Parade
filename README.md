@@ -42,6 +42,7 @@ It is intended for situations where you use a pen display tablet or similar devi
 #### Circuit Diagram
 ![circuit scheme](./scheme.png "Circuit Scheme")
 The annotation of the parts on the PCB corresponds to the circuit diagram.  
+**I made a place for the LED D11, but system does not use it.**
 #### soldering map
 ![circuit](./solder.svg "soldering map")
 If you make this device as Left hand device, you solder on the parts surronded by **red and purple line**,
