@@ -1,15 +1,15 @@
 [English docs](./README.md)
 
-_Hat先輩に感謝をこめて,![salt](https://otsu36.net)に期待をこめて..._
+_Hat先輩に感謝をこめて,[salt](https://otsu36.net)に期待をこめて..._
 
 # LEFT Parade project
 
 いわゆる左手デバイスです．  
-液タブなどを右手で使うときなど，左手でマクロを打ち込みたいときにどうぞ．
+液タブなどを使うときなど，片手ででマクロを打ち込みたいときにどうぞ．
 
 ## 仕様
 - 接続は**Bluetoothのみ**です．有線接続はサポートしていません．  
-ただし，これはESP32C3に依存する制約であるため，ESP32S3などのUSBでのHIDをサポートしているボードを使うことにより，有線接続を実現できます．
+ただし，これはESP32C3に依存する制約であるため，ESP32S3などのUSBでのHIDをサポートしているボードを使うことにより，有線接続を実現できるかもしれません．
 - バッテリーを搭載可能です（3.7 V, Li-ion）．ESP32C3表面に直接接続してください．  
 - 複数キーの同時押しにより，**80通りのマクロ**を設定することができます（マクロの設定にはArduino IDEが必要）. 
 - 上記仕様の実現のため,キースイッチ押してから**手を離すタイミング**でコマンドが送信されます．素早いマクロの入力には向きません．
@@ -47,4 +47,7 @@ _Hat先輩に感謝をこめて,![salt](https://otsu36.net)に期待をこめて
 
 ## Special Thanks
 - [Mystfit/ESP32-BLE-CompositeHID](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
+
+## Contact
+もしご質問などあれば[keik4656@gmail.com](keik4656@gmail.com)まで
 

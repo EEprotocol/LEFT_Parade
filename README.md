@@ -2,7 +2,7 @@
 # LEFT Parade Project
 
 This is a so-called *left-hand device*.  
-It is intended for situations where you use a pen display tablet or similar device with your right hand and want to trigger macros with your left hand.
+It is intended for situations where you use a pen display tablet or similar device with one of your hand and want to trigger macros with the other hand.
 
 ## TL;DR
 ![navigate](./sample.gif)
@@ -20,11 +20,7 @@ It is intended for situations where you use a pen display tablet or similar devi
     2. **Fast Attack Mode**
         The number of assignment decline to 8 (same as the number of keys), but the command is send when you push the keys. You can use this mode if you mind the delay.
 
-## Circuit Diagram
-![circuit scheme](./scheme.png "Circuit Scheme")
 
-Pins **D0, D1, D5, and D6** are available as free pins.  
-Feel free to use them for LEDs or other custom extensions.
 
 ## Bill of Materials
 | Component | Price (JPY) |
@@ -43,6 +39,15 @@ Feel free to use them for LEDs or other custom extensions.
 
 ## Installation  
 ### Hardware
+#### Circuit Diagram
+![circuit scheme](./scheme.png "Circuit Scheme")
+The annotation of the parts on the PCB corresponds to the circuit diagram.  
+#### soldering map
+![circuit](./solder.svg "soldering map")
+If you make this device as Left hand device, you solder on the parts surronded by **red and purple line**,
+and If you make it as right hand device, solder on the parts with **purple and blue line**.
+The component mounting side aligns with the side marked with the respective part indicators.
+
 
 ### Software
 1. Install Arduino IDE on your PC, e.g.  
@@ -124,3 +129,6 @@ The key ID which plades the first number corresponds to the following assignment
 ## Special Thanks
 - [Mystfit/ESP32-BLE-CompositeHID](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
 - [freerouting/freerouting](https://github.com/freerouting/freerouting?tab=readme-ov-file)
+
+## Contact
+If you have something to ask, please mail to [keik4656@gmail.com](keik4656@gmail.com).
