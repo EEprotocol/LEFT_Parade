@@ -2,6 +2,7 @@
 # LEFT Parade Project
 
 This is a so-called *left-hand device*.  
+You can also use it with your right hand.  
 It is intended for situations where you use a pen display tablet or similar device with one of your hand and want to trigger macros with the other hand.
 
 ## TL;DR
