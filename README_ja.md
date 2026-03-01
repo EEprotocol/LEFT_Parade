@@ -1,6 +1,6 @@
 [English docs](./README.md)
 
-_Hat先輩に感謝をこめて,[salt](https://otsu36.net)に期待をこめて..._
+_Hat先輩に感謝をこめて，[salt](https://otsu36.net)に期待をこめて..._
 
 # LEFT Parade project
 
@@ -149,4 +149,6 @@ const keyMapEntry direct_key[] = {
 
 ## Contact
 もしご質問などあれば[keik4656@gmail.com](keik4656@gmail.com)まで
+
+舞台裏[https://eeprotocol.0t0.jp/craftlog/article/cont5/](https://eeprotocol.0t0.jp/craftlog/article/cont5/)
 
